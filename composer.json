@@ -21,6 +21,6 @@
     "minimum-stability": "stable",
     "require": {},
     "archive": {
-        "exclude": ["vendor"]
+        "exclude": ["/vender","/vendor/*"]
     }
 }
