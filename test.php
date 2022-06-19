@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Aplum\Proto\Tservice;
+use aplum_proto\Tservice;
 
 $obj=new Tservice();
 

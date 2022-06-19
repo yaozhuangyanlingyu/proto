@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Aplum\\Proto\\": "src/"
+            "aplum_proto\\": "src/"
         }
     },
     "authors": [

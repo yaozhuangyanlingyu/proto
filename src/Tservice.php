@@ -1,6 +1,6 @@
 <?php
 
-namespace Aplum\Proto;
+namespace aplum_proto;
 
 class Tservice {
 	public function __construct(){
