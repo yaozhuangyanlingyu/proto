@@ -19,8 +19,5 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
-    "archive": {
-        "exclude": ["/vender","/vendor/*"]
-    }
+    "require": {}
 }
