@@ -1,21 +1,21 @@
 {
-    "name": "aplum_yxf/test",
+    "name": "aplum/proto",
+    "description": "php proto interface",
     "type": "library",
-    "description": "test",
-    "keywords" : ["test", "framework"],
-    "homepage" : "https://www.aplum.com/",
-    "authors": [
-        {
-            "name": "yaoxf",
-            "email": "850630887@qq.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.6.0"
+    "require-dev": {
+        "php": "^7.0"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Tools\\": "src/"
+            "Aplum\\Proto\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "aplum"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }
