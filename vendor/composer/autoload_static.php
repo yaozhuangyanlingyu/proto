@@ -9,14 +9,27 @@ class ComposerStaticInitdbf74ec529c544f079672a9946411ab4
     public static $prefixLengthsPsr4 = array (
         'a' => 
         array (
+            'app\\components\\proto\\' => 21,
             'aplum_proto\\' => 12,
+        ),
+        'G' => 
+        array (
+            'GPBMetadata\\' => 12,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'app\\components\\proto\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/app/components/proto',
+        ),
         'aplum_proto\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'GPBMetadata\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/GPBMetadata',
         ),
     );
 

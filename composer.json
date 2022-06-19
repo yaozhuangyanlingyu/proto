@@ -8,7 +8,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "aplum_proto\\": "src/"
+            "aplum_proto\\": "src/",
+            "app\\components\\proto\\":"src/app/components/proto/",
+            "GPBMetadata\\" : "src/GPBMetadata/"
         }
     },
     "authors": [
